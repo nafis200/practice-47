@@ -6,7 +6,7 @@ import Header from "../header/Header";
 const Roots = () => {
     return (
         <div>
-            <h1>hellow world</h1>
+            <h1>I am roots</h1>
             <Header></Header>
             <Outlet></Outlet>
             <Footer></Footer>
