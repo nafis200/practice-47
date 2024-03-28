@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredJob } from "../../utility/Localstorage";
+import { Helmet } from "react-helmet-async";
 
 
 
 const AppliedJobs = () => {
+
     const jobs = useLoaderData()
 
     const [appliedJobs, setAppliedjobs] = useState([])
@@ -27,7 +29,8 @@ const AppliedJobs = () => {
 
     return (
         <div>
-            <h2>Jobs I applied:{appliedJobs.length}</h2>
+<Helmet> <title>nafis</title> </Helmet>
+            <h2 className="text-2xl">Jobs I applied:{appliedJobs.length}</h2>
         </div>
     );
 };
