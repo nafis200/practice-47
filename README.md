@@ -2,6 +2,8 @@
 
 [@vitejs/plugin-react](https://assignment-48-books.netlify.app/)
 
+ [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+
 Features:
 - show all books
 - show Spacefic detail book
